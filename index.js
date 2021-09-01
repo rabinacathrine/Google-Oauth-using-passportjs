@@ -8,7 +8,7 @@ app.use(passport.session())
 
 const auth = require('./auth')
 app.get('/',(req,res)=>{
-    res.send('<a href="https://mernapplications.herokuapp.com/auth/google">Authenticate using google</a>')
+    res.send('<a href="https://google-auth-using-passportjs.herokuapp.com/auth/google">Authenticate using google</a>')
 })
 
 function isLoggedIn(req,res,next){
